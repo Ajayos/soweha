@@ -1,6 +1,7 @@
 // import { useState } from "react";
 import { Navigate, useRoutes } from "react-router-dom";
 import HomePage from "./Pages/Home/index"
+import AddEmp from "./Pages/AddEmp/index"
 
 export default function Router() {
   const isAuthenticated = false;
@@ -19,7 +20,7 @@ export default function Router() {
               { path: "managerdetails", element: <h1> managerdetails</h1>},
               { path: "deptdetails", element: <h1> deptdetails</h1>},
               { path: "promote", element: <h1> promote</h1>},
-              { path: "add", element: <h1> add</h1>},
+              { path: "add", element: <AddEmp/> },
             ],
           },
         ]
