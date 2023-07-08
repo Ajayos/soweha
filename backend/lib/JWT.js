@@ -6,11 +6,11 @@ const jwt = require("jsonwebtoken");
  * @returns {string|boolean} - The encoded JWT token or false if encoding fails.
  */
 const encode = (data) => {
-	if (!(data._id || data.id) && !data.email && !data.password) return false;
+	if (!(data._id || data.id) && !data.username && !data.password) return false;
 
 	const payload = {
 		id: data._id || data.id,
-		email: data.email,
+		username: data.username,
 		password: data.password,
 	};
 
