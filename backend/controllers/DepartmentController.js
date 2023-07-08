@@ -5,7 +5,14 @@ const {
 	getDepartments,
 } = require("../Services/DepartmentServices");
 
-// Get all departments list
+
+/*
+ * This function gets all departments list from the database.
+ *
+ * @param {Object} req The request object.
+ * @param {Object} res The response object.
+ * @returns {Promise} A promise that resolves with the response data.
+ */
 exports.getDepartmentsList = asyncHandler(async (req, res) => {
 	try {
 		const { status, error, message, data } = await Departments();
@@ -23,7 +30,13 @@ exports.getDepartmentsList = asyncHandler(async (req, res) => {
 	}
 });
 
-// Get all departments
+/*
+ * This function gets all departments from the database.
+ *
+ * @param {Object} req The request object.
+ * @param {Object} res The response object.
+ * @returns {Promise} A promise that resolves with the response data.
+ */
 exports.getDepartments = asyncHandler(async (req, res) => {
 	try {
 		const { status, error, message, data } = await getDepartments();
@@ -41,7 +54,13 @@ exports.getDepartments = asyncHandler(async (req, res) => {
 	}
 });
 
-// Get a single department
+/*
+ * This function gets a single department from the database.
+ *
+ * @param {Object} req The request object.
+ * @param {Object} res The response object.
+ * @returns {Promise} A promise that resolves with the response data.
+ */
 exports.getDepartment = asyncHandler(async (req, res) => {
 	try {
 		const { status, error, message, data } = await getDepartment(req.params);

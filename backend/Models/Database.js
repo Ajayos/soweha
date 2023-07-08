@@ -11,7 +11,7 @@ const connectDB = async () => {
   const url = process.env.MONGO_URL;
   // Exit the process with a non-zero status code if the URL is not provided
   if (!url) {
-    log("MongoDB URL not provided".red.bold);
+    log("MongoDB URL not provided".red.bold, "e");
     process.exit(1);
   }
   // change the <PASSWORD> to real password
@@ -28,7 +28,7 @@ const connectDB = async () => {
     log(`MongoDB Connected`.cyan.underline);
   } catch (error) {
     // Log an error message if the connection failed
-    log(`Error: ${error.message}`.red.bold);
+    log(`Error: ${error.message}`.red.bold, "e");
     // Exit the process with a non-zero status code
     process.exit(1);
   }

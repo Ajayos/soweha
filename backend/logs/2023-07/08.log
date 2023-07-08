@@ -6,3 +6,846 @@
 [2:19 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
 [2:19 PM] > [*]> Open above url to view the app :) > 
 [2:19 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[5:59 PM] > [*]> Server running on port 3001 > 
+[5:59 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[5:59 PM] > [*]> Open above url to view the app :) > 
+[6:00 PM] > [*]> [1m[31mError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/[39m[22m > 
+[6:02 PM] > [-]>-----------------------------<
+[6:02 PM] > [*]> Server running on port 3001 > 
+[6:02 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:02 PM] > [*]> Open above url to view the app :) > 
+[6:02 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:02 PM] > [-]>-----------------------------<
+[6:02 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:11 PM] > [-]>-----------------------------<
+[6:11 PM] > [*]> Server running on port 3001 > 
+[6:11 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:11 PM] > [*]> Open above url to view the app :) > 
+[6:11 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:11 PM] > [-]>-----------------------------<
+[6:11 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:43 PM] > [-]>-----------------------------<
+[6:43 PM] > [*]> Server running on port 3001 > 
+[6:43 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:43 PM] > [*]> Open above url to view the app :) > 
+[6:43 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:43 PM] > [-]>-----------------------------<
+[6:43 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:43 PM] > [-]>-----------------------------<
+[6:43 PM] > [*]> Server running on port 3001 > 
+[6:43 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:43 PM] > [*]> Open above url to view the app :) > 
+[6:43 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:43 PM] > [-]>-----------------------------<
+[6:43 PM] > [-]>-----------------------------<
+[6:43 PM] > [*]> Server running on port 3001 > 
+[6:43 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:43 PM] > [*]> Open above url to view the app :) > 
+[6:43 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:43 PM] > [-]>-----------------------------<
+[6:43 PM] > [-]>-----------------------------<
+[6:43 PM] > [*]> Server running on port 3001 > 
+[6:43 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:43 PM] > [*]> Open above url to view the app :) > 
+[6:43 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:43 PM] > [-]>-----------------------------<
+[6:43 PM] > [-]>-----------------------------<
+[6:43 PM] > [*]> Server running on port 3001 > 
+[6:43 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:43 PM] > [*]> Open above url to view the app :) > 
+[6:43 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:43 PM] > [-]>-----------------------------<
+[6:43 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:43 PM] > [-]>-----------------------------<
+[6:43 PM] > [*]> Server running on port 3001 > 
+[6:43 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:43 PM] > [*]> Open above url to view the app :) > 
+[6:43 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:43 PM] > [-]>-----------------------------<
+[6:43 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:43 PM] > [-]>-----------------------------<
+[6:43 PM] > [*]> Server running on port 3001 > 
+[6:43 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:43 PM] > [*]> Open above url to view the app :) > 
+[6:43 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:43 PM] > [-]>-----------------------------<
+[6:44 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:44 PM] > [-]>-----------------------------<
+[6:44 PM] > [*]> Server running on port 3001 > 
+[6:44 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:44 PM] > [*]> Open above url to view the app :) > 
+[6:44 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:44 PM] > [-]>-----------------------------<
+[6:44 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:44 PM] > [-]>-----------------------------<
+[6:44 PM] > [*]> Server running on port 3001 > 
+[6:44 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:44 PM] > [*]> Open above url to view the app :) > 
+[6:44 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:44 PM] > [-]>-----------------------------<
+[6:44 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:44 PM] > [-]>-----------------------------<
+[6:44 PM] > [*]> Server running on port 3001 > 
+[6:44 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:44 PM] > [*]> Open above url to view the app :) > 
+[6:44 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:44 PM] > [-]>-----------------------------<
+[6:44 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:44 PM] > [-]>-----------------------------<
+[6:44 PM] > [*]> Server running on port 3001 > 
+[6:44 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:44 PM] > [*]> Open above url to view the app :) > 
+[6:44 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:44 PM] > [-]>-----------------------------<
+[6:44 PM] > [-]>-----------------------------<
+[6:44 PM] > [*]> Server running on port 3001 > 
+[6:44 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:44 PM] > [*]> Open above url to view the app :) > 
+[6:44 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:44 PM] > [-]>-----------------------------<
+[6:44 PM] > [-]>-----------------------------<
+[6:44 PM] > [*]> Server running on port 3001 > 
+[6:44 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:44 PM] > [*]> Open above url to view the app :) > 
+[6:44 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:44 PM] > [-]>-----------------------------<
+[6:44 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:44 PM] > [-]>-----------------------------<
+[6:44 PM] > [*]> Server running on port 3001 > 
+[6:44 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:44 PM] > [*]> Open above url to view the app :) > 
+[6:44 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:44 PM] > [-]>-----------------------------<
+[6:44 PM] > [-]>-----------------------------<
+[6:44 PM] > [*]> Server running on port 3001 > 
+[6:44 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:44 PM] > [*]> Open above url to view the app :) > 
+[6:44 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:44 PM] > [-]>-----------------------------<
+[6:44 PM] > [-]>-----------------------------<
+[6:44 PM] > [*]> Server running on port 3001 > 
+[6:44 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:44 PM] > [*]> Open above url to view the app :) > 
+[6:44 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:44 PM] > [-]>-----------------------------<
+[6:44 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:44 PM] > [-]>-----------------------------<
+[6:44 PM] > [*]> Server running on port 3001 > 
+[6:44 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:44 PM] > [*]> Open above url to view the app :) > 
+[6:44 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:44 PM] > [-]>-----------------------------<
+[6:44 PM] > [-]>-----------------------------<
+[6:44 PM] > [*]> Server running on port 3001 > 
+[6:44 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:44 PM] > [*]> Open above url to view the app :) > 
+[6:44 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:44 PM] > [-]>-----------------------------<
+[6:44 PM] > [-]>-----------------------------<
+[6:44 PM] > [*]> Server running on port 3001 > 
+[6:44 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:44 PM] > [*]> Open above url to view the app :) > 
+[6:44 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:44 PM] > [-]>-----------------------------<
+[6:44 PM] > [-]>-----------------------------<
+[6:44 PM] > [*]> Server running on port 3001 > 
+[6:44 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:44 PM] > [*]> Open above url to view the app :) > 
+[6:44 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:44 PM] > [-]>-----------------------------<
+[6:45 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:45 PM] > [-]>-----------------------------<
+[6:45 PM] > [*]> Server running on port 3001 > 
+[6:45 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:45 PM] > [*]> Open above url to view the app :) > 
+[6:45 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:45 PM] > [-]>-----------------------------<
+[6:45 PM] > [-]>-----------------------------<
+[6:45 PM] > [*]> Server running on port 3001 > 
+[6:45 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:45 PM] > [*]> Open above url to view the app :) > 
+[6:45 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:45 PM] > [-]>-----------------------------<
+[6:45 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:45 PM] > [-]>-----------------------------<
+[6:45 PM] > [*]> Server running on port 3001 > 
+[6:45 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:45 PM] > [*]> Open above url to view the app :) > 
+[6:45 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:45 PM] > [-]>-----------------------------<
+[6:45 PM] > [-]>-----------------------------<
+[6:45 PM] > [*]> Server running on port 3001 > 
+[6:45 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:45 PM] > [*]> Open above url to view the app :) > 
+[6:45 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:45 PM] > [-]>-----------------------------<
+[6:45 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:45 PM] > [-]>-----------------------------<
+[6:45 PM] > [*]> Server running on port 3001 > 
+[6:45 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:45 PM] > [*]> Open above url to view the app :) > 
+[6:45 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:45 PM] > [-]>-----------------------------<
+[6:45 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:45 PM] > [-]>-----------------------------<
+[6:45 PM] > [*]> Server running on port 3001 > 
+[6:45 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:45 PM] > [*]> Open above url to view the app :) > 
+[6:45 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:45 PM] > [-]>-----------------------------<
+[6:45 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:45 PM] > [-]>-----------------------------<
+[6:45 PM] > [*]> Server running on port 3001 > 
+[6:45 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:45 PM] > [*]> Open above url to view the app :) > 
+[6:45 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:45 PM] > [-]>-----------------------------<
+[6:45 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:45 PM] > [-]>-----------------------------<
+[6:45 PM] > [*]> Server running on port 3001 > 
+[6:45 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:45 PM] > [*]> Open above url to view the app :) > 
+[6:45 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:45 PM] > [-]>-----------------------------<
+[6:45 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:45 PM] > [-]>-----------------------------<
+[6:45 PM] > [*]> Server running on port 3001 > 
+[6:45 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:45 PM] > [*]> Open above url to view the app :) > 
+[6:45 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:45 PM] > [-]>-----------------------------<
+[6:45 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:45 PM] > [-]>-----------------------------<
+[6:45 PM] > [*]> Server running on port 3001 > 
+[6:45 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:45 PM] > [*]> Open above url to view the app :) > 
+[6:45 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:45 PM] > [-]>-----------------------------<
+[6:45 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:46 PM] > [-]>-----------------------------<
+[6:46 PM] > [*]> Server running on port 3001 > 
+[6:46 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:46 PM] > [*]> Open above url to view the app :) > 
+[6:46 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:46 PM] > [-]>-----------------------------<
+[6:46 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:46 PM] > [-]>-----------------------------<
+[6:46 PM] > [*]> Server running on port 3001 > 
+[6:46 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:46 PM] > [*]> Open above url to view the app :) > 
+[6:46 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:46 PM] > [-]>-----------------------------<
+[6:46 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:46 PM] > [-]>-----------------------------<
+[6:46 PM] > [*]> Server running on port 3001 > 
+[6:46 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:46 PM] > [*]> Open above url to view the app :) > 
+[6:46 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:46 PM] > [-]>-----------------------------<
+[6:46 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:46 PM] > [-]>-----------------------------<
+[6:46 PM] > [*]> Server running on port 3001 > 
+[6:46 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:46 PM] > [*]> Open above url to view the app :) > 
+[6:46 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:46 PM] > [-]>-----------------------------<
+[6:46 PM] > [-]>-----------------------------<
+[6:46 PM] > [*]> Server running on port 3001 > 
+[6:46 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:46 PM] > [*]> Open above url to view the app :) > 
+[6:46 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:46 PM] > [-]>-----------------------------<
+[6:46 PM] > [-]>-----------------------------<
+[6:46 PM] > [*]> Server running on port 3001 > 
+[6:46 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:46 PM] > [*]> Open above url to view the app :) > 
+[6:46 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:46 PM] > [-]>-----------------------------<
+[6:46 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:46 PM] > [-]>-----------------------------<
+[6:46 PM] > [*]> Server running on port 3001 > 
+[6:46 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:46 PM] > [*]> Open above url to view the app :) > 
+[6:46 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:46 PM] > [-]>-----------------------------<
+[6:46 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:46 PM] > [-]>-----------------------------<
+[6:46 PM] > [*]> Server running on port 3001 > 
+[6:46 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:46 PM] > [*]> Open above url to view the app :) > 
+[6:46 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:46 PM] > [-]>-----------------------------<
+[6:46 PM] > [-]>-----------------------------<
+[6:46 PM] > [*]> Server running on port 3001 > 
+[6:46 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:46 PM] > [*]> Open above url to view the app :) > 
+[6:46 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:46 PM] > [-]>-----------------------------<
+[6:46 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:46 PM] > [-]>-----------------------------<
+[6:46 PM] > [*]> Server running on port 3001 > 
+[6:46 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:46 PM] > [*]> Open above url to view the app :) > 
+[6:46 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:46 PM] > [-]>-----------------------------<
+[6:46 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:46 PM] > [-]>-----------------------------<
+[6:46 PM] > [*]> Server running on port 3001 > 
+[6:46 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:46 PM] > [*]> Open above url to view the app :) > 
+[6:46 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:46 PM] > [-]>-----------------------------<
+[6:46 PM] > [-]>-----------------------------<
+[6:46 PM] > [*]> Server running on port 3001 > 
+[6:46 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:46 PM] > [*]> Open above url to view the app :) > 
+[6:46 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:46 PM] > [-]>-----------------------------<
+[6:46 PM] > [-]>-----------------------------<
+[6:46 PM] > [*]> Server running on port 3001 > 
+[6:46 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:46 PM] > [*]> Open above url to view the app :) > 
+[6:46 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:46 PM] > [-]>-----------------------------<
+[6:46 PM] > [-]>-----------------------------<
+[6:46 PM] > [*]> Server running on port 3001 > 
+[6:46 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:46 PM] > [*]> Open above url to view the app :) > 
+[6:46 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:46 PM] > [-]>-----------------------------<
+[6:46 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:46 PM] > [-]>-----------------------------<
+[6:46 PM] > [*]> Server running on port 3001 > 
+[6:46 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:46 PM] > [*]> Open above url to view the app :) > 
+[6:46 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:46 PM] > [-]>-----------------------------<
+[6:47 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:47 PM] > [-]>-----------------------------<
+[6:47 PM] > [*]> Server running on port 3001 > 
+[6:47 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:47 PM] > [*]> Open above url to view the app :) > 
+[6:47 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:47 PM] > [-]>-----------------------------<
+[6:47 PM] > [-]>-----------------------------<
+[6:47 PM] > [*]> Server running on port 3001 > 
+[6:47 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:47 PM] > [*]> Open above url to view the app :) > 
+[6:47 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:47 PM] > [-]>-----------------------------<
+[6:47 PM] > [-]>-----------------------------<
+[6:47 PM] > [*]> Server running on port 3001 > 
+[6:47 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:47 PM] > [*]> Open above url to view the app :) > 
+[6:47 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:47 PM] > [-]>-----------------------------<
+[6:47 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:47 PM] > [-]>-----------------------------<
+[6:47 PM] > [*]> Server running on port 3001 > 
+[6:47 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:47 PM] > [*]> Open above url to view the app :) > 
+[6:47 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:47 PM] > [-]>-----------------------------<
+[6:47 PM] > [-]>-----------------------------<
+[6:47 PM] > [*]> Server running on port 3001 > 
+[6:47 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:47 PM] > [*]> Open above url to view the app :) > 
+[6:47 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:47 PM] > [-]>-----------------------------<
+[6:47 PM] > [-]>-----------------------------<
+[6:47 PM] > [*]> Server running on port 3001 > 
+[6:47 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:47 PM] > [*]> Open above url to view the app :) > 
+[6:47 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:47 PM] > [-]>-----------------------------<
+[6:47 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:47 PM] > [-]>-----------------------------<
+[6:47 PM] > [*]> Server running on port 3001 > 
+[6:47 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:47 PM] > [*]> Open above url to view the app :) > 
+[6:47 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:47 PM] > [-]>-----------------------------<
+[6:47 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:47 PM] > [-]>-----------------------------<
+[6:47 PM] > [*]> Server running on port 3001 > 
+[6:47 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:47 PM] > [*]> Open above url to view the app :) > 
+[6:47 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:47 PM] > [-]>-----------------------------<
+[6:47 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:47 PM] > [-]>-----------------------------<
+[6:47 PM] > [*]> Server running on port 3001 > 
+[6:47 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:47 PM] > [*]> Open above url to view the app :) > 
+[6:47 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:47 PM] > [-]>-----------------------------<
+[6:47 PM] > [-]>-----------------------------<
+[6:47 PM] > [*]> Server running on port 3001 > 
+[6:47 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:47 PM] > [*]> Open above url to view the app :) > 
+[6:47 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:47 PM] > [-]>-----------------------------<
+[6:47 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:47 PM] > [-]>-----------------------------<
+[6:47 PM] > [*]> Server running on port 3001 > 
+[6:47 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:47 PM] > [*]> Open above url to view the app :) > 
+[6:47 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:47 PM] > [-]>-----------------------------<
+[6:47 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:47 PM] > [-]>-----------------------------<
+[6:47 PM] > [*]> Server running on port 3001 > 
+[6:47 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:47 PM] > [*]> Open above url to view the app :) > 
+[6:47 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:47 PM] > [-]>-----------------------------<
+[6:47 PM] > [-]>-----------------------------<
+[6:47 PM] > [*]> Server running on port 3001 > 
+[6:47 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:47 PM] > [*]> Open above url to view the app :) > 
+[6:47 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:47 PM] > [-]>-----------------------------<
+[6:47 PM] > [-]>-----------------------------<
+[6:47 PM] > [*]> Server running on port 3001 > 
+[6:47 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:47 PM] > [*]> Open above url to view the app :) > 
+[6:47 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:47 PM] > [-]>-----------------------------<
+[6:48 PM] > [-]>-----------------------------<
+[6:48 PM] > [*]> Server running on port 3001 > 
+[6:48 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:48 PM] > [*]> Open above url to view the app :) > 
+[6:48 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:48 PM] > [-]>-----------------------------<
+[6:48 PM] > [-]>-----------------------------<
+[6:48 PM] > [*]> Server running on port 3001 > 
+[6:48 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:48 PM] > [*]> Open above url to view the app :) > 
+[6:48 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:48 PM] > [-]>-----------------------------<
+[6:48 PM] > [-]>-----------------------------<
+[6:48 PM] > [*]> Server running on port 3001 > 
+[6:48 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:48 PM] > [*]> Open above url to view the app :) > 
+[6:48 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:48 PM] > [-]>-----------------------------<
+[6:48 PM] > [-]>-----------------------------<
+[6:48 PM] > [*]> Server running on port 3001 > 
+[6:48 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:48 PM] > [*]> Open above url to view the app :) > 
+[6:48 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:48 PM] > [-]>-----------------------------<
+[6:48 PM] > [-]>-----------------------------<
+[6:48 PM] > [*]> Server running on port 3001 > 
+[6:48 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:48 PM] > [*]> Open above url to view the app :) > 
+[6:48 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:48 PM] > [-]>-----------------------------<
+[6:48 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:48 PM] > [-]>-----------------------------<
+[6:48 PM] > [*]> Server running on port 3001 > 
+[6:48 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:48 PM] > [*]> Open above url to view the app :) > 
+[6:48 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:48 PM] > [-]>-----------------------------<
+[6:48 PM] > [-]>-----------------------------<
+[6:48 PM] > [*]> Server running on port 3001 > 
+[6:48 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:48 PM] > [*]> Open above url to view the app :) > 
+[6:48 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:48 PM] > [-]>-----------------------------<
+[6:48 PM] > [-]>-----------------------------<
+[6:48 PM] > [*]> Server running on port 3001 > 
+[6:48 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:48 PM] > [*]> Open above url to view the app :) > 
+[6:48 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:48 PM] > [-]>-----------------------------<
+[6:48 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:48 PM] > [-]>-----------------------------<
+[6:48 PM] > [*]> Server running on port 3001 > 
+[6:48 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:48 PM] > [*]> Open above url to view the app :) > 
+[6:48 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:48 PM] > [-]>-----------------------------<
+[6:48 PM] > [-]>-----------------------------<
+[6:48 PM] > [*]> Server running on port 3001 > 
+[6:48 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:48 PM] > [*]> Open above url to view the app :) > 
+[6:48 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:48 PM] > [-]>-----------------------------<
+[6:48 PM] > [-]>-----------------------------<
+[6:48 PM] > [*]> Server running on port 3001 > 
+[6:48 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:48 PM] > [*]> Open above url to view the app :) > 
+[6:48 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:48 PM] > [-]>-----------------------------<
+[6:48 PM] > [-]>-----------------------------<
+[6:48 PM] > [*]> Server running on port 3001 > 
+[6:48 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:48 PM] > [*]> Open above url to view the app :) > 
+[6:48 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:48 PM] > [-]>-----------------------------<
+[6:48 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:48 PM] > [-]>-----------------------------<
+[6:48 PM] > [*]> Server running on port 3001 > 
+[6:48 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:48 PM] > [*]> Open above url to view the app :) > 
+[6:48 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:48 PM] > [-]>-----------------------------<
+[6:48 PM] > [-]>-----------------------------<
+[6:48 PM] > [*]> Server running on port 3001 > 
+[6:48 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:48 PM] > [*]> Open above url to view the app :) > 
+[6:48 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:48 PM] > [-]>-----------------------------<
+[6:48 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:48 PM] > [-]>-----------------------------<
+[6:48 PM] > [*]> Server running on port 3001 > 
+[6:48 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:48 PM] > [*]> Open above url to view the app :) > 
+[6:48 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:48 PM] > [-]>-----------------------------<
+[6:48 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:48 PM] > [-]>-----------------------------<
+[6:48 PM] > [*]> Server running on port 3001 > 
+[6:48 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:48 PM] > [*]> Open above url to view the app :) > 
+[6:48 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:48 PM] > [-]>-----------------------------<
+[6:48 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:48 PM] > [-]>-----------------------------<
+[6:48 PM] > [*]> Server running on port 3001 > 
+[6:48 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:48 PM] > [*]> Open above url to view the app :) > 
+[6:48 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:48 PM] > [-]>-----------------------------<
+[6:48 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:48 PM] > [-]>-----------------------------<
+[6:48 PM] > [*]> Server running on port 3001 > 
+[6:48 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:48 PM] > [*]> Open above url to view the app :) > 
+[6:48 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:48 PM] > [-]>-----------------------------<
+[6:49 PM] > [-]>-----------------------------<
+[6:49 PM] > [*]> Server running on port 3001 > 
+[6:49 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:49 PM] > [*]> Open above url to view the app :) > 
+[6:49 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:49 PM] > [-]>-----------------------------<
+[6:49 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:49 PM] > [-]>-----------------------------<
+[6:49 PM] > [*]> Server running on port 3001 > 
+[6:49 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:49 PM] > [*]> Open above url to view the app :) > 
+[6:49 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:49 PM] > [-]>-----------------------------<
+[6:49 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:49 PM] > [-]>-----------------------------<
+[6:49 PM] > [*]> Server running on port 3001 > 
+[6:49 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:49 PM] > [*]> Open above url to view the app :) > 
+[6:49 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:49 PM] > [-]>-----------------------------<
+[6:49 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:49 PM] > [-]>-----------------------------<
+[6:49 PM] > [*]> Server running on port 3001 > 
+[6:49 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:49 PM] > [*]> Open above url to view the app :) > 
+[6:49 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:49 PM] > [-]>-----------------------------<
+[6:49 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:49 PM] > [-]>-----------------------------<
+[6:49 PM] > [*]> Server running on port 3001 > 
+[6:49 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:49 PM] > [*]> Open above url to view the app :) > 
+[6:49 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:49 PM] > [-]>-----------------------------<
+[6:49 PM] > [-]>-----------------------------<
+[6:49 PM] > [*]> Server running on port 3001 > 
+[6:49 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:49 PM] > [*]> Open above url to view the app :) > 
+[6:49 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:49 PM] > [-]>-----------------------------<
+[6:49 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:49 PM] > [-]>-----------------------------<
+[6:49 PM] > [*]> Server running on port 3001 > 
+[6:49 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:49 PM] > [*]> Open above url to view the app :) > 
+[6:49 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:49 PM] > [-]>-----------------------------<
+[6:49 PM] > [-]>-----------------------------<
+[6:49 PM] > [*]> Server running on port 3001 > 
+[6:49 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:49 PM] > [*]> Open above url to view the app :) > 
+[6:49 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:49 PM] > [-]>-----------------------------<
+[6:49 PM] > [-]>-----------------------------<
+[6:49 PM] > [*]> Server running on port 3001 > 
+[6:49 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:49 PM] > [*]> Open above url to view the app :) > 
+[6:49 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:49 PM] > [-]>-----------------------------<
+[6:49 PM] > [-]>-----------------------------<
+[6:49 PM] > [*]> Server running on port 3001 > 
+[6:49 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:49 PM] > [*]> Open above url to view the app :) > 
+[6:49 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:49 PM] > [-]>-----------------------------<
+[6:49 PM] > [-]>-----------------------------<
+[6:49 PM] > [*]> Server running on port 3001 > 
+[6:49 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:49 PM] > [*]> Open above url to view the app :) > 
+[6:49 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:49 PM] > [-]>-----------------------------<
+[6:49 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:49 PM] > [-]>-----------------------------<
+[6:49 PM] > [*]> Server running on port 3001 > 
+[6:49 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:49 PM] > [*]> Open above url to view the app :) > 
+[6:49 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:49 PM] > [-]>-----------------------------<
+[6:49 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:49 PM] > [-]>-----------------------------<
+[6:49 PM] > [*]> Server running on port 3001 > 
+[6:49 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:49 PM] > [*]> Open above url to view the app :) > 
+[6:49 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:49 PM] > [-]>-----------------------------<
+[6:49 PM] > [-]>-----------------------------<
+[6:49 PM] > [*]> Server running on port 3001 > 
+[6:49 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:49 PM] > [*]> Open above url to view the app :) > 
+[6:49 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:49 PM] > [-]>-----------------------------<
+[6:49 PM] > [-]>-----------------------------<
+[6:49 PM] > [*]> Server running on port 3001 > 
+[6:49 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:49 PM] > [*]> Open above url to view the app :) > 
+[6:49 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:49 PM] > [-]>-----------------------------<
+[6:49 PM] > [-]>-----------------------------<
+[6:49 PM] > [*]> Server running on port 3001 > 
+[6:49 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:49 PM] > [*]> Open above url to view the app :) > 
+[6:49 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:49 PM] > [-]>-----------------------------<
+[6:49 PM] > [-]>-----------------------------<
+[6:49 PM] > [*]> Server running on port 3001 > 
+[6:49 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:49 PM] > [*]> Open above url to view the app :) > 
+[6:49 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:49 PM] > [-]>-----------------------------<
+[6:49 PM] > [-]>-----------------------------<
+[6:49 PM] > [*]> Server running on port 3001 > 
+[6:49 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:49 PM] > [*]> Open above url to view the app :) > 
+[6:49 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:49 PM] > [-]>-----------------------------<
+[6:49 PM] > [-]>-----------------------------<
+[6:49 PM] > [*]> Server running on port 3001 > 
+[6:49 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:49 PM] > [*]> Open above url to view the app :) > 
+[6:49 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:49 PM] > [-]>-----------------------------<
+[6:49 PM] > [-]>-----------------------------<
+[6:49 PM] > [*]> Server running on port 3001 > 
+[6:49 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:49 PM] > [*]> Open above url to view the app :) > 
+[6:49 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:49 PM] > [-]>-----------------------------<
+[6:50 PM] > [-]>-----------------------------<
+[6:50 PM] > [*]> Server running on port 3001 > 
+[6:50 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:50 PM] > [*]> Open above url to view the app :) > 
+[6:50 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:50 PM] > [-]>-----------------------------<
+[6:50 PM] > [-]>-----------------------------<
+[6:50 PM] > [*]> Server running on port 3001 > 
+[6:50 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:50 PM] > [*]> Open above url to view the app :) > 
+[6:50 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:50 PM] > [-]>-----------------------------<
+[6:50 PM] > [-]>-----------------------------<
+[6:50 PM] > [*]> Server running on port 3001 > 
+[6:50 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:50 PM] > [*]> Open above url to view the app :) > 
+[6:50 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:50 PM] > [-]>-----------------------------<
+[6:50 PM] > [-]>-----------------------------<
+[6:50 PM] > [*]> Server running on port 3001 > 
+[6:50 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:50 PM] > [*]> Open above url to view the app :) > 
+[6:50 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:50 PM] > [-]>-----------------------------<
+[6:50 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:50 PM] > [-]>-----------------------------<
+[6:50 PM] > [*]> Server running on port 3001 > 
+[6:50 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:50 PM] > [*]> Open above url to view the app :) > 
+[6:50 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:50 PM] > [-]>-----------------------------<
+[6:50 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:50 PM] > [-]>-----------------------------<
+[6:50 PM] > [*]> Server running on port 3001 > 
+[6:50 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:50 PM] > [*]> Open above url to view the app :) > 
+[6:50 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:50 PM] > [-]>-----------------------------<
+[6:50 PM] > [-]>-----------------------------<
+[6:50 PM] > [*]> Server running on port 3001 > 
+[6:50 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:50 PM] > [*]> Open above url to view the app :) > 
+[6:50 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:50 PM] > [-]>-----------------------------<
+[6:50 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:50 PM] > [-]>-----------------------------<
+[6:50 PM] > [*]> Server running on port 3001 > 
+[6:50 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:50 PM] > [*]> Open above url to view the app :) > 
+[6:50 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:50 PM] > [-]>-----------------------------<
+[6:50 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:50 PM] > [-]>-----------------------------<
+[6:50 PM] > [*]> Server running on port 3001 > 
+[6:50 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:50 PM] > [*]> Open above url to view the app :) > 
+[6:50 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:50 PM] > [-]>-----------------------------<
+[6:50 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:50 PM] > [-]>-----------------------------<
+[6:50 PM] > [*]> Server running on port 3001 > 
+[6:50 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:50 PM] > [*]> Open above url to view the app :) > 
+[6:50 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:50 PM] > [-]>-----------------------------<
+[6:50 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:51 PM] > [-]>-----------------------------<
+[6:51 PM] > [*]> Server running on port 3001 > 
+[6:51 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:51 PM] > [*]> Open above url to view the app :) > 
+[6:51 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:51 PM] > [-]>-----------------------------<
+[6:51 PM] > [-]>-----------------------------<
+[6:51 PM] > [*]> Server running on port 3001 > 
+[6:51 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:51 PM] > [*]> Open above url to view the app :) > 
+[6:51 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:51 PM] > [-]>-----------------------------<
+[6:51 PM] > [-]>-----------------------------<
+[6:51 PM] > [*]> Server running on port 3001 > 
+[6:51 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:51 PM] > [*]> Open above url to view the app :) > 
+[6:51 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:51 PM] > [-]>-----------------------------<
+[6:51 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:51 PM] > [-]>-----------------------------<
+[6:51 PM] > [*]> Server running on port 3001 > 
+[6:51 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:51 PM] > [*]> Open above url to view the app :) > 
+[6:51 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:51 PM] > [-]>-----------------------------<
+[6:51 PM] > [-]>-----------------------------<
+[6:51 PM] > [*]> Server running on port 3001 > 
+[6:51 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:51 PM] > [*]> Open above url to view the app :) > 
+[6:51 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:51 PM] > [-]>-----------------------------<
+[6:51 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:51 PM] > [-]>-----------------------------<
+[6:51 PM] > [*]> Server running on port 3001 > 
+[6:51 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:51 PM] > [*]> Open above url to view the app :) > 
+[6:51 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:51 PM] > [-]>-----------------------------<
+[6:51 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:51 PM] > [-]>-----------------------------<
+[6:51 PM] > [*]> Server running on port 3001 > 
+[6:51 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:51 PM] > [*]> Open above url to view the app :) > 
+[6:51 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:51 PM] > [-]>-----------------------------<
+[6:51 PM] > [-]>-----------------------------<
+[6:51 PM] > [*]> Server running on port 3001 > 
+[6:51 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:51 PM] > [*]> Open above url to view the app :) > 
+[6:51 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:51 PM] > [-]>-----------------------------<
+[6:51 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:51 PM] > [-]>-----------------------------<
+[6:51 PM] > [*]> Server running on port 3001 > 
+[6:51 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:51 PM] > [*]> Open above url to view the app :) > 
+[6:51 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:51 PM] > [-]>-----------------------------<
+[6:51 PM] > [-]>-----------------------------<
+[6:51 PM] > [*]> Server running on port 3001 > 
+[6:51 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:51 PM] > [*]> Open above url to view the app :) > 
+[6:51 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:51 PM] > [-]>-----------------------------<
+[6:51 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:51 PM] > [-]>-----------------------------<
+[6:51 PM] > [*]> Server running on port 3001 > 
+[6:51 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:51 PM] > [*]> Open above url to view the app :) > 
+[6:51 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:51 PM] > [-]>-----------------------------<
+[6:51 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:51 PM] > [-]>-----------------------------<
+[6:51 PM] > [*]> Server running on port 3001 > 
+[6:51 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:51 PM] > [*]> Open above url to view the app :) > 
+[6:51 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:51 PM] > [-]>-----------------------------<
+[6:51 PM] > [-]>-----------------------------<
+[6:51 PM] > [*]> Server running on port 3001 > 
+[6:51 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:51 PM] > [*]> Open above url to view the app :) > 
+[6:51 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:51 PM] > [-]>-----------------------------<
+[6:52 PM] > [-]>-----------------------------<
+[6:52 PM] > [*]> Server running on port 3001 > 
+[6:52 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:52 PM] > [*]> Open above url to view the app :) > 
+[6:52 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:52 PM] > [-]>-----------------------------<
+[6:52 PM] > [-]>-----------------------------<
+[6:52 PM] > [*]> Server running on port 3001 > 
+[6:52 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:52 PM] > [*]> Open above url to view the app :) > 
+[6:52 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:52 PM] > [-]>-----------------------------<
+[6:52 PM] > [-]>-----------------------------<
+[6:52 PM] > [*]> Server running on port 3001 > 
+[6:52 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:52 PM] > [*]> Open above url to view the app :) > 
+[6:52 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:52 PM] > [-]>-----------------------------<
+[6:52 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:52 PM] > [-]>-----------------------------<
+[6:52 PM] > [*]> Server running on port 3001 > 
+[6:52 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:52 PM] > [*]> Open above url to view the app :) > 
+[6:52 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:52 PM] > [-]>-----------------------------<
+[6:52 PM] > [-]>-----------------------------<
+[6:52 PM] > [*]> Server running on port 3001 > 
+[6:52 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:52 PM] > [*]> Open above url to view the app :) > 
+[6:52 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:52 PM] > [-]>-----------------------------<
+[6:52 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:52 PM] > [-]>-----------------------------<
+[6:52 PM] > [*]> Server running on port 3001 > 
+[6:52 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:52 PM] > [*]> Open above url to view the app :) > 
+[6:52 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:52 PM] > [-]>-----------------------------<
+[6:52 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 
+[6:52 PM] > [-]>-----------------------------<
+[6:52 PM] > [*]> Server running on port 3001 > 
+[6:52 PM] > [*]> Server is running at http://127.0.0.1:3001 > 
+[6:52 PM] > [*]> Open above url to view the app :) > 
+[6:52 PM] > [*]> Press Ctrl + C to stop the server > 
+[6:52 PM] > [-]>-----------------------------<
+[6:52 PM] > [*]> [4m[36mMongoDB Connected[39m[24m > 

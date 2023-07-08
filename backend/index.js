@@ -30,7 +30,7 @@ const { log } = require("@ajayos/nodelogger");
 
 // Import local modules
 const setupLogger = require("./lib/Logger");
-// const apiRouter = require("./Routes");
+const apiRouter = require("./Routes");
 const { connectDB } = require("./Models");
 const { errorHandler } = require("./middleware/");
 
@@ -66,7 +66,7 @@ app.use(bodyParser.json());
 
 // setup api
 // v1 api
-// app.use("/", apiRouter);
+app.use("/", apiRouter);
 app.use(express.static(publicPath));
 
 app.get("*", (req, res) => {
@@ -80,7 +80,10 @@ app.use(errorHandler);
 
 // Start the server
 server.listen(SERVER_PORT, () => {
+	log()
 	log(`Server running on port ${SERVER_PORT}`, "i");
 	log(`Server is running at http://127.0.0.1:${SERVER_PORT}`, "i");
 	log(`Open above url to view the app :)`, "i");
+	log(`Press Ctrl + C to stop the server`, "i");
+	log()
 });
