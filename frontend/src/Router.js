@@ -15,6 +15,11 @@ export default function Router() {
             children: [
               { element: <Navigate to="/home" />, index: true },
               { path: "home", element: <HomePage /> },
+              { path: "empdetails", element: <h1> empDetails</h1>},
+              { path: "managerdetails", element: <h1> managerdetails</h1>},
+              { path: "deptdetails", element: <h1> deptdetails</h1>},
+              { path: "promote", element: <h1> promote</h1>},
+              { path: "add", element: <h1> add</h1>},
             ],
           },
         ]
