@@ -1,5 +1,6 @@
 // import { useState } from "react";
 import { Navigate, useRoutes } from "react-router-dom";
+import HomePage from "./Pages/Home/index"
 
 export default function Router() {
   const isAuthenticated = false;
@@ -13,7 +14,7 @@ export default function Router() {
             // element: <Topbar />,
             children: [
               { element: <Navigate to="/home" />, index: true },
-              { path: "home", element: <h1>user router </h1> },
+              { path: "home", element: <HomePage /> },
             ],
           },
         ]
