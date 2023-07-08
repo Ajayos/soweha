@@ -30,7 +30,7 @@ const { log } = require("@ajayos/nodelogger");
 
 // Import local modules
 const setupLogger = require("./lib/Logger");
-const apiRouter = require("./Routes");
+// const apiRouter = require("./Routes");
 const { connectDB } = require("./Models");
 const { errorHandler } = require("./middleware/");
 
@@ -66,7 +66,7 @@ app.use(bodyParser.json());
 
 // setup api
 // v1 api
-app.use("/", apiRouter);
+// app.use("/", apiRouter);
 app.use(express.static(publicPath));
 
 app.get("*", (req, res) => {

@@ -3,7 +3,9 @@ import { MenuItem, SubMenu } from "react-pro-sidebar";
 import { Link } from "react-router-dom";
 import colors from "../../../Theme/colors";
 import Header from "./Header";
-
+import BadgeIcon from '@mui/icons-material/Badge';
+import ManageAccountsIcon from '@mui/icons-material/ManageAccounts';
+import AccountBalanceIcon from '@mui/icons-material/AccountBalance';
 import BarChartOutlinedIcon from "@mui/icons-material/BarChartOutlined";
 
 import TimelineOutlinedIcon from "@mui/icons-material/TimelineOutlined";
@@ -51,23 +53,23 @@ export default function Inside() {
           setSelected={setSelected}
         />
         <Item
-          title="Projects"
-          to="/projects"
-          icon={<AppsIcon />}
+          title="Employee Details"
+          to="/empdetails"
+          icon={<BadgeIcon />}
           selected={selected}
           setSelected={setSelected}
         />
         <Item
-          title="Repo"
-          to="/contacts"
-          icon={<AutoAwesomeMosaicIcon />}
+          title="Manager Details"
+          to="/managerdetails"
+          icon={<ManageAccountsIcon />}
           selected={selected}
           setSelected={setSelected}
         />
         <Item
-          title="Auther"
-          to="/contacts"
-          icon={<PersonPinIcon />}
+          title="Department Details"
+          to="/deptdetails"
+          icon={<AccountBalanceIcon />}
           selected={selected}
           setSelected={setSelected}
         />
