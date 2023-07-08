@@ -29,7 +29,7 @@ export default function DrawerPart() {
           sx={{
             "& .pro-sidebar .pro-menu": {
               paddingTop: "10px",
-              paddingBottom: "150%",
+              paddingBottom: "250%",
             },
             "& .pro-icon-wrapper": {
               backgroundColor: "transparent !important",

@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react'
 
-export default function App() {
-  console.log("hi")
+const index = () => {
   return (
-    <div className="App">
-      <h1>Hello </h1>
-      <h2>PAGE UNDER MAINTENANCE HII</h2>
+    <div>
+      <h1>hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii</h1>
     </div>
-  );
+  )
 }
+
+export default index

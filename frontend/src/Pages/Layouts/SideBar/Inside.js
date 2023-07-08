@@ -1,18 +1,14 @@
 import { Box, Divider, Typography, useTheme } from "@mui/material";
-import { MenuItem, SubMenu } from "react-pro-sidebar";
+import { MenuItem} from "react-pro-sidebar";
 import { Link } from "react-router-dom";
 import colors from "../../../Theme/colors";
 import Header from "./Header";
 import BadgeIcon from '@mui/icons-material/Badge';
 import ManageAccountsIcon from '@mui/icons-material/ManageAccounts';
 import AccountBalanceIcon from '@mui/icons-material/AccountBalance';
-import BarChartOutlinedIcon from "@mui/icons-material/BarChartOutlined";
-
-import TimelineOutlinedIcon from "@mui/icons-material/TimelineOutlined";
-import PersonPinIcon from "@mui/icons-material/PersonPin";
-import AppsIcon from "@mui/icons-material/Apps";
-import AutoAwesomeMosaicIcon from "@mui/icons-material/AutoAwesomeMosaic";
+import KeyboardDoubleArrowUpIcon from '@mui/icons-material/KeyboardDoubleArrowUp';
 import DashboardIcon from "@mui/icons-material/Dashboard";
+import PersonAddIcon from '@mui/icons-material/PersonAdd';
 import { useState } from "react";
 
 export default function Inside() {
@@ -73,12 +69,20 @@ export default function Inside() {
           selected={selected}
           setSelected={setSelected}
         />
-        <SubMenu label="Charts">
-          <MenuItem icon={<PersonPinIcon />}> Pie charts </MenuItem>
-          <MenuItem icon={<BarChartOutlinedIcon />}> Line charts </MenuItem>
-        </SubMenu>
-        <MenuItem icon={<TimelineOutlinedIcon />}> Documentation </MenuItem>
-        <MenuItem icon={<PersonPinIcon />}> Calendar </MenuItem>
+        <Item
+          title=" Promote Employee"
+          to="/promote"
+          icon={<KeyboardDoubleArrowUpIcon />}
+          selected={selected}
+          setSelected={setSelected}
+        />
+        <Item
+          title="Add Employee"
+          to="/add"
+          icon={<PersonAddIcon />}
+          selected={selected}
+          setSelected={setSelected}
+        />
       </Box>
     </>
   );
