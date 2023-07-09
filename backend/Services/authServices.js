@@ -1,6 +1,5 @@
 const { Admin } = require("../Models");
-const bcrypt = require("bcryptjs");
-
+const isEqual = require("../lib/IsEqual");
 /**
  * Validates and protects an admin's access based on provided data.
  * @param {Object} data - The data object containing admin information.
@@ -12,10 +11,8 @@ exports.protectAdmin = async (data) => {
 	try {
 		// Destructure the data object to get the required properties
 		const { id, password } = data;
-
 		// Find the admin based on the decoded id
 		const admin = await Admin.findById(id);
-
 		if (!admin) {
 			// Admin not found
 			return {
@@ -27,9 +24,8 @@ exports.protectAdmin = async (data) => {
 		}
 
 		// Compare the provided password with the hashed password in the database
-		const isMatch = await bcrypt.compare(password, check.password);
 
-		if (!isMatch) {
+		if (!isEqual(password, admin.password)) {
 			// Password doesn't match
 			return {
 				status: 401,
@@ -51,7 +47,7 @@ exports.protectAdmin = async (data) => {
 		return {
 			status: 500,
 			error: true,
-			message: "Internal server error",
+			message: "Internal- server error",
 			data: undefined,
 		};
 	}

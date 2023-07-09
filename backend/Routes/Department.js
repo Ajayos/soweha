@@ -12,4 +12,13 @@ router.get("/all", Middleware, Department.getDepartments);
 // Route: GET /department/v1/:id
 router.get("/:id", Middleware, Department.getDepartment);
 
+// Route: POST /department/v1/
+router.post("/", Middleware, Department.createDepartment);
+
+// Route: PUT /department/v1/:id
+router.put("/:id", Middleware, Department.updateDepartment);
+
+// Route: DELETE /department/v1/:id
+router.delete("/:id", Middleware, Department.deleteDepartment);
+
 module.exports = router;

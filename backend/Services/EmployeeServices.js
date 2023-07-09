@@ -1,4 +1,5 @@
 const { Employee } = require("../Models");
+const { v4: uuid } = require("uuid");
 
 /**
  * Get all employees with their respective departments.
@@ -185,10 +186,11 @@ exports.deleteEmployee = async ({ id }) => {
  * @param {String} employee.yearsOfExperience - The employee's years of experience.
  * @param {String} employee.dateOfJoining - The employee's date of joining.
  */
-exports.addEmployee = async ({ employee }) => {
+exports.addEmployee = async (employee) => {
 	try {
 		// Create a new employee
 		const newEmployee = new Employee({
+			id: uuid(),
 			name: employee.name,
 			email: employee.email,
 			phoneNumber: employee.phoneNumber,
@@ -344,7 +346,7 @@ exports.PromoteEmployee = async ({ id }) => {
 			};
 		}
 		if (employee.yearsOfExperience >= 5) {
-			employee.role = "manager";
+			employee.role = "Manager";
 			await employee.save();
 			return {
 				status: 200,
@@ -386,8 +388,8 @@ exports.DemoteEmployee = async ({ id }) => {
 				data: undefined,
 			};
 		}
-		if (employee.role === "manager") {
-			employee.role = "employee";
+		if (employee.role === "Manager") {
+			employee.role = "Employee";
 			await employee.save();
 			return {
 				status: 200,

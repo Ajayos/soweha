@@ -7,9 +7,9 @@ const mongoose = require("mongoose");
  */
 const departmentSchema = new mongoose.Schema(
 	{
-		// ID field of type Number, required and unique
+		// ID field of type String, required and unique
 		id: {
-			type: Number,
+			type: String,
 			required: true,
 			unique: true,
 		},

@@ -26,7 +26,7 @@ export default function SideBar() {
     <Box
       sx={{
         "& .pro-sidebar-inner": {
-          background: `${color.primary[800]} !important`,
+          background: `${color.primary[700]} !important`,
         },
         "& .pro-icon-wrapper": {
           backgroundColor: "transparent !important",
@@ -38,7 +38,7 @@ export default function SideBar() {
           color: "#868dfb !important",
         },
         "& .pro-menu-item.active": {
-          color: "#6870fa !important",
+          color: "red !important",
         },
       }}
     >

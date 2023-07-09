@@ -56,3 +56,32 @@ exports.createAccount = asyncHandler(async (req, res) => {
 		});
 	}
 });
+
+/**
+ * get Dashboard information
+ * @param {Object} req - The request object.
+ * @param {Object} res - The response object.
+ * @returns {Object} - The result of the account creation process.
+ */
+exports.getDashboard = asyncHandler(async (req, res) => {
+	try {
+		// Call the createAccount function from the Admin service with the request body
+		const { status, error, message, data } = await Admin.getDashBoardData(
+			req.body
+		);
+
+		// Return the account creation result as a JSON response with the appropriate status code
+		return res.status(status).json({
+			error: error,
+			message: message,
+			data: data,
+		});
+	} catch (error) {
+		// Handle any errors that occur during the account creation process
+		return res.status(500).json({
+			error: true,
+			message: "Internal server error",
+			data: undefined,
+		});
+	}
+});

@@ -4,7 +4,8 @@ const { protectAdmin } = require("../Services/authServices");
 const { decode } = require("../lib/JWT");
 
 // Authentication middleware for admins
-module.exports =  asyncHandler(async (req, res, next) => {
+module.exports = asyncHandler(async (req, res, next) => {
+	// Check if the authorization header is present and has a Bearer token
 	if (
 		req.headers.authorization &&
 		req.headers.authorization.startsWith("Bearer")
@@ -12,10 +13,14 @@ module.exports =  asyncHandler(async (req, res, next) => {
 		try {
 			const token = req.headers.authorization.split(" ")[1];
 
-			// Decode the token to get the user id, email, and password
-			const { id, email, password } = await decode(token);
+			// Decode the token to get the user id and password
+			const data_ = await decode(token);
+			const { id, password } = data_.data;
 
-			const { status, message, error, data } = await protectAdmin(id, password);
+			const { status, message, error, data } = await protectAdmin({
+				id,
+				password,
+			});
 
 			if (error) {
 				return res.status(status).json({

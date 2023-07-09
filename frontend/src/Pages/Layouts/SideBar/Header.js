@@ -13,10 +13,9 @@ export default function Header() {
   const { isAuthenticated, user } = useAuth();
   const [is, setIs] = useState(true);
   const [isUser, setIsUser] = useState({
-    name: "Ajay o s",
-    email: "ajayos@gmail.com",
-    status: "😍",
-    pic: "https://github.com/Ajayos.png",
+    name: "",
+    email: "",
+    pic: "",
     online: true,
   });
 
@@ -24,7 +23,7 @@ export default function Header() {
     if (isAuthenticated) {
       setIs(true);
       setIsUser({
-        name: user["name"],
+        name: user["username"],
         email: user["email"],
         status: user["status"],
         pic: user["pic"],
@@ -37,7 +36,7 @@ export default function Header() {
   // eslint-disable-next-line
   const StyledBadge = styled(Badge)(({ theme }) => ({
     "& .MuiBadge-badge": {
-      backgroundColor: isUser.online ? "green" : "transparent",
+      backgroundColor: true ? "green" : "transparent",
       width: "8px",
       height: "8px",
       borderRadius: "50%",
@@ -69,7 +68,7 @@ export default function Header() {
             anchorOrigin={{ vertical: "bottom", horizontal: "right" }}
             variant="dot"
           >
-            <Avatar alt={isUser["name"]} src={isUser["pic"]} />
+            <Avatar alt={isUser["name"]} src={isUser["pic"]}  sx={{ width: 56, height: 56, marginLeft: 2 }}/>
           </StyledBadge>
         </Button>
         <Popover

@@ -1,4 +1,5 @@
 const { Department, Employee } = require("../Models");
+const { v4: uuid } = require("uuid");
 
 /**
  * Get all departments with their respective employees.
@@ -106,6 +107,134 @@ exports.getDepartments = async () => {
 			error: false,
 			message: "Success",
 			data: departmentWithEmployees,
+		};
+	} catch (error) {
+		// Handle any errors that occur during the operation
+		return {
+			status: 500,
+			error: true,
+			message: "Internal server error",
+			data: error,
+		};
+	}
+};
+
+/**
+ * Create a new department.
+ * @param {Object} data - The department data.
+ * @returns {Object} - The result of the operation.
+ */
+exports.createDepartment = async (data) => {
+	try {
+		if (!data.name || !data.location || !data.manager) {
+			return {
+				status: 400,
+				error: true,
+				message: "Missing required fields",
+				data: undefined,
+			};
+		}
+		// Create a new department using the Department model
+		const department = new Department({
+			id: uuid(),
+			name: data.name,
+			location: data.location,
+			manager: data.manager,
+		});
+
+		// Save the new department
+		await department.save();
+
+		// Return the department as the result of the operation
+		return {
+			status: 201,
+			error: false,
+			message: "Department created",
+			data: department,
+		};
+	} catch (error) {
+		// Handle any errors that occur during the operation
+		return {
+			status: 500,
+			error: true,
+			message: "Internal server error",
+			data: error,
+		};
+	}
+};
+
+/**
+ * Update a department.
+ * @param {Object} data - The department data.
+ * @returns {Object} - The result of the operation.
+ */
+exports.updateDepartment = async (data) => {
+	try {
+		// Find the department by ID and update it
+		const department = await Department.findById(data.id);
+
+		if (!department) {
+			// Department not found
+			return {
+				status: 404,
+				error: true,
+				message: "Department not found",
+				data: undefined,
+			};
+		}
+
+		// Update the department
+		department.name = data.name;
+		department.location = data.location;
+		department.manager = data.manager;
+
+		// Save the updated department
+		await department.save();
+
+		// Return the department as the result of the operation
+		return {
+			status: 200,
+			error: false,
+			message: "Department updated",
+			data: department,
+		};
+	} catch (error) {
+		// Handle any errors that occur during the operation
+		return {
+			status: 500,
+			error: true,
+			message: "Internal server error",
+			data: error,
+		};
+	}
+};
+
+/**
+ * Delete a department.
+ * @param {Object} data - The department data.
+ * @returns {Object} - The result of the operation.
+ */
+exports.deleteDepartment = async ({ id }) => {
+	try {
+		// Find the department by ID and delete it
+		const department = await Department.findByIdAndDelete(id);
+
+		if (!department) {
+			// Department not found
+			return {
+				status: 404,
+				error: true,
+				message: "Department not found",
+				data: undefined,
+			};
+		}
+
+		// Return the department as the result of the operation
+		return {
+			status: 200,
+			error: false,
+			message: "Department deleted",
+			data: department,
 		};
 	} catch (error) {
 		// Handle any errors that occur during the operation

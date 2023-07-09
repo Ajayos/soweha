@@ -59,7 +59,7 @@ const Sidebar_ = () => {
     <Box
       sx={{
         "& .pro-sidebar-inner": {
-          background: `${colors.primary[800]} !important`,
+          background: `${colors.primary[700]} !important`,
         },
         "& .pro-icon-wrapper": {
           backgroundColor: "transparent !important",

@@ -1,38 +1,41 @@
 // import { useState } from "react";
 import { Navigate, useRoutes } from "react-router-dom";
-import HomePage from "./Pages/Home/index"
-import AddEmp from "./Pages/AddEmp/index"
-
+import HomePage from "./Pages/Home/index";
+import AddEmp from "./Pages/AddEmp/index";
+import EmployeeDetails from "./Pages/EmpDetails";
+import Promote from "./Pages/Promote/index";
+import LoginPage from "./Pages/Auth/index";
+import useAuth from "./hooks/useAuth";
+import Manager from "./Pages/Manager/index";
 export default function Router() {
-  const isAuthenticated = false;
-  const access = false;
+  const { isAuthenticated } = useAuth();
 
   const routes = useRoutes([
-    ...(!access
+    ...(isAuthenticated
       ? [
           {
             path: "/",
             // element: <Topbar />,
             children: [
-              { element: <Navigate to="/home" />, index: true },
-              { path: "home", element: <HomePage /> },
-              { path: "empdetails", element: <h1> empDetails</h1>},
-              { path: "managerdetails", element: <h1> managerdetails</h1>},
+              { element: <Navigate to="/dashboard" />, index: true },
+              { path: "dashboard", element: <HomePage /> },
+              { path: "empdetails", element: <EmployeeDetails />},
+              { path: "managerdetails", element: <Manager />},
               { path: "deptdetails", element: <h1> deptdetails</h1>},
-              { path: "promote", element: <h1> promote</h1>},
+              { path: "promote", element: <Promote />},
               { path: "add", element: <AddEmp/> },
             ],
           },
         ]
       : []),
-    ...(isAuthenticated && access
+    ...(!isAuthenticated
       ? [
           {
             path: "/",
             //element: <Layout />,
             children: [
-              { element: <Navigate to="/home" />, index: true },
-              { path: "home", element: <h1>Admin router </h1> },
+              { element: <Navigate to="/login" />, index: true },
+              { path: "login", element: <LoginPage /> },
             ],
           },
         ]
@@ -43,7 +46,7 @@ export default function Router() {
     },
     {
       children: [
-        { element: <Navigate to="/home" />, index: true },
+        { element: <Navigate to="/dashboard" />, index: true },
         { path: "404", element: <h1> 404 </h1> },
         { path: "*", element: <h1>to 404 </h1> },
       ],

@@ -46,7 +46,16 @@ exports.getEmployeesList = asyncHandler(async (req, res) => {
  */
 exports.addEmployee = asyncHandler(async (req, res) => {
 	try {
-		const { status, error, message, data } = await addEmployee(req.body);
+		const { status, error, message, data } = await addEmployee({
+			name: req.body.name,
+			department: req.body.department,
+			email: req.body.email,
+			phoneNumber: req.body.phoneNumber,
+			dob: req.body.dob,
+			age: req.body.age,
+			yearsOfExperience: req.body.yearsOfExperience,
+			dateOfJoining: req.body.dateOfJoining,
+		});
 		return res.status(status).json({
 			error: error,
 			message: message,
@@ -70,7 +79,10 @@ exports.addEmployee = asyncHandler(async (req, res) => {
  */
 exports.editEmployee = asyncHandler(async (req, res) => {
 	try {
-		const { status, error, message, data } = await editEmployee(req.body);
+		const { status, error, message, data } = await editEmployee({
+			id: req.params.id,
+			employee: req.body,
+		});
 		return res.status(status).json({
 			error: error,
 			message: message,
@@ -94,7 +106,9 @@ exports.editEmployee = asyncHandler(async (req, res) => {
  */
 exports.deleteEmployee = asyncHandler(async (req, res) => {
 	try {
-		const { status, error, message, data } = await deleteEmployee(req.body);
+		const { status, error, message, data } = await deleteEmployee({
+			id: req.params.id,
+		});
 		return res.status(status).json({
 			error: error,
 			message: message,
@@ -215,7 +229,7 @@ exports.changeDepartment = asyncHandler(async (req, res) => {
 exports.PromoteEmployee = asyncHandler(async (req, res) => {
 	try {
 		const { status, error, message, data } = await PromoteEmployee({
-			id: req.body.id,
+			id: req.params.id,
 		});
 		return res.status(status).json({
 			error: error,
@@ -241,7 +255,7 @@ exports.PromoteEmployee = asyncHandler(async (req, res) => {
 exports.DemoteEmployee = asyncHandler(async (req, res) => {
 	try {
 		const { status, error, message, data } = await DemoteEmployee({
-			id: req.body.id,
+			id: req.params.id,
 		});
 		return res.status(status).json({
 			error: error,

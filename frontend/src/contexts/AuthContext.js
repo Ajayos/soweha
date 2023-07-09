@@ -1,43 +1,29 @@
-import { useState, createContext } from "react";
-// import {
-// 	getToken,
-// 	login,
-// 	getUserData,
-// 	getAccess,
+import { useState, createContext, useEffect } from "react";
+ import {
+ 	getToken,
+ 	getUserData,
 // 	logout,
-// } from "../utils/handleAuth";
-// import API from "../utils/api";
+ } from "../utils/handleAuth";
 
 export const AuthContext = createContext({});
 
 export default function AuthProvider({ children }) {
-  // const { enqueueSnackbar } = useSnackbar();
-  // eslint-disable-next-line
   const [isAuthenticated, setIsAuthenticated] = useState(false);
-  // eslint-disable-next-line
   const [user, setUser] = useState({
-    name: "Ajay o s",
-    email: "ajayos@gmail.com",
-    status: "😍",
-    pic: "https://github.com/Ajayos.png",
-    online: true,
+    username: "",
+    pic: "",
   });
   // eslint-disable-next-line
-  const [MyToken, setMyToken] = useState("");
-  // eslint-disable-next-line
-  const [access, setAccess] = useState(false);
-  // eslint-disable-next-line
-  const [error, setError] = useState(false);
+  const [MyToken, setMyToken] = useState(undefined);
 
-  // useEffect(() => {
-  // 	const myToken = getToken();
-  // 	if (myToken) {
-  // 		setIsAuthenticated(true);
-  // 		setMyToken(myToken);
-  // 		setUser(getUserData());
-  // 		setAccess(getAccess());
-  // 	}
-  // }, []);
+   useEffect(() => {
+   	const myToken = getToken();
+   	if (myToken && myToken !== undefined) {
+   		setIsAuthenticated(true);
+   		setMyToken(myToken);
+   		setUser(getUserData());
+   	}
+   }, [setIsAuthenticated, setUser]);
 
   // async function SignIn(email, password) {
   // 	return await API.post("/users/login", { email, password });
@@ -47,7 +33,6 @@ export default function AuthProvider({ children }) {
     <AuthContext.Provider
       value={{
         isAuthenticated,
-        access,
         user,
       }}
     >

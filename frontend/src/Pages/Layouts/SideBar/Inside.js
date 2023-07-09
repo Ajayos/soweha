@@ -2,7 +2,7 @@ import { Box, Divider, Typography, useTheme } from "@mui/material";
 import { MenuItem} from "react-pro-sidebar";
 import { Link } from "react-router-dom";
 import colors from "../../../Theme/colors";
-import Header from "./Header";
+// import Header from "./Header";
 import BadgeIcon from '@mui/icons-material/Badge';
 import ManageAccountsIcon from '@mui/icons-material/ManageAccounts';
 import AccountBalanceIcon from '@mui/icons-material/AccountBalance';
@@ -38,7 +38,7 @@ export default function Inside() {
   return (
     <>
       <Divider />
-      <Header />
+      {/* <Header /> */}
       <Divider />
       <Box paddingLeft={isCollapsed ? undefined : "0%"}>
         <Item
@@ -59,13 +59,6 @@ export default function Inside() {
           title="Manager Details"
           to="/managerdetails"
           icon={<ManageAccountsIcon />}
-          selected={selected}
-          setSelected={setSelected}
-        />
-        <Item
-          title="Department Details"
-          to="/deptdetails"
-          icon={<AccountBalanceIcon />}
           selected={selected}
           setSelected={setSelected}
         />

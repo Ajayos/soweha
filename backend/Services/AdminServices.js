@@ -1,4 +1,4 @@
-const { Admin } = require("../Models");
+const { Admin, Department, Employee } = require("../Models");
 const { encode } = require("../lib/JWT");
 const bcrypt = require("bcryptjs");
 
@@ -31,7 +31,7 @@ exports.login = async ({ username, password }) => {
 			// Password matches, generate a token
 			const token = encode({
 				id: check._id,
-				password: password,
+				password: check.password,
 				username: username,
 			});
 
@@ -40,7 +40,7 @@ exports.login = async ({ username, password }) => {
 				status: 200,
 				error: false,
 				message: "Success",
-				data: token,
+				data: { token, username, pic: check.pic, id: check._id},
 			};
 		} else {
 			// Invalid password
@@ -119,6 +119,41 @@ exports.createAccount = async (accountInfo) => {
 	} catch (error) {
 		console.log(error);
 		// Handle any errors that occur during the account creation process
+		return {
+			status: 500,
+			error: true,
+			message: "Internal server error",
+			data: error,
+		};
+	}
+};
+/**
+ * Get all dashboard data
+ * @returns {Object} - The result of the dashboard data retrieval.
+ */
+exports.getDashBoardData = async () => {
+	try {
+		// Get all departments
+		const departments = await Department.find();
+
+		// Get all employee
+		const employee = await Employee.find({ role: "Employee" });
+
+		// Get all employees
+		const employees = await Employee.find();
+
+		// Get all managers
+		const managers = await Employee.find({ role: "Manager" });
+
+		// Return the dashboard data
+		return {
+			status: 200,
+			error: false,
+			message: "Success",
+			data: { departments: departments.length, employee: employee.length, employees: employees.length, managers: managers.length },
+		};
+	} catch (error) {
+		// Handle any errors that occur during the process
 		return {
 			status: 500,
 			error: true,

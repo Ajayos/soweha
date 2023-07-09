@@ -13,9 +13,9 @@ const employeeSchema = new mongoose.Schema(
 			required: true,
 		},
 
-		// ID field of type Number, required and unique
+		// ID field of type String, required and unique
 		id: {
-			type: Number,
+			type: String,
 			required: true,
 			unique: true,
 		},
@@ -78,9 +78,9 @@ const employeeSchema = new mongoose.Schema(
 
 		// Department field of type mongoose.Schema.Types.ObjectId, ref "Department" (referencing the Department model)
 		department: {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: "Department",
-    }
+			type: mongoose.Schema.Types.ObjectId,
+			ref: "Department",
+		},
 	},
 	{
 		// Define the timestamps option to automatically generate 'created' and 'updated' fields

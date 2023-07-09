@@ -57,9 +57,7 @@ const AddEmployeeForm = (props) => {
 			errors.dateOfJoining = "Date of Joining is required";
 		}
 
-		if (!isExperienced) {
-			employeeDetails.yearsOfExperience = "0";
-		} else if (!employeeDetails.yearsOfExperience) {
+		if (!employeeDetails.yearsOfExperience) {
 			isValid = false;
 			errors.yearsOfExperience = "Years of experience is required";
 		}
@@ -130,7 +128,6 @@ const AddEmployeeForm = (props) => {
 						dateOfBirth: employeeData.dob,
 						department: employeeData.department._id,
 					});
-					setIsExperienced(employeeData.yearsOfExperience > 0);
 				} catch (error) {
 					console.log("Error: ", error);
 				}
@@ -156,14 +153,7 @@ const AddEmployeeForm = (props) => {
 		}
 	};
 
-	const handleExperienceChange = (event) => {
-		const { value } = event.target;
-		setIsExperienced(value === "yes");
-		setEmployeeDetails((prevDetails) => ({
-			...prevDetails,
-			yearsOfExperience: isExperienced ? "" : "0",
-		}));
-	};
+	
 
 	const handleSubmit = async (event) => {
 		event.preventDefault();
@@ -290,35 +280,17 @@ const AddEmployeeForm = (props) => {
 							sx={{ marginBottom: "16px" }}
 						/>
 
-						<FormControl fullWidth sx={{ marginBottom: "16px" }}>
-							<InputLabel>Years of Experience</InputLabel>
-							<Select
-								name='yearsOfExperience'
-								value={isExperienced ? "yes" : "no"}
-								error={!!errors.yearsOfExperience}
-								helperText={errors.yearsOfExperience}
-								onChange={handleExperienceChange}
-								required
-							>
-								<MenuItem value='no'>No</MenuItem>
-								<MenuItem value='yes'>Yes</MenuItem>
-							</Select>
-						</FormControl>
-
-						{isExperienced && (
-							<TextField
-								label='Years of Experience'
-								name='yearsOfExperience'
-								type='number'
-								value={employeeDetails.yearsOfExperience}
-								error={!!errors.yearsOfExperience}
-								helperText={errors.yearsOfExperience}
-								onChange={handleChange}
-								required={isExperienced}
-								fullWidth
-								sx={{ marginBottom: "16px" }}
-							/>
-						)}
+						<TextField
+							label='Years of Experience'
+							name='yearsOfExperience'
+							type='number'
+							value={employeeDetails.yearsOfExperience}
+							error={!!errors.yearsOfExperience}
+							helperText={errors.yearsOfExperience}
+							onChange={handleChange}
+							fullWidth
+							sx={{ marginBottom: "16px" }}
+						/>
 
 						<Stack direction='row' spacing={1} sx={{ marginBottom: "16px" }}>
 							<TextField

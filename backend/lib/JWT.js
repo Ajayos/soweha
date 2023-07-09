@@ -28,22 +28,21 @@ const encode = (data) => {
  */
 const decode = (token) => {
 	if (!token) return false;
-
 	try {
 		const data = jwt.verify(token, process.env.JWT_SECRET);
-		return res.json({
+		return {
 			valid: true,
 			message: "valid",
 			error: false,
 			data: data,
-		});
+		};
 	} catch (error) {
-		return res.json({
+		return {
 			valid: false,
 			message: "error",
 			error: true,
 			data: error,
-		});
+		};
 	}
 };
 
