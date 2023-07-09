@@ -7,6 +7,7 @@ import Promote from "./Pages/Promote/index";
 import LoginPage from "./Pages/Auth/index";
 import useAuth from "./hooks/useAuth";
 import Manager from "./Pages/Manager/index";
+import Dipartment from "./Pages/Dipartment/index";
 export default function Router() {
   const { isAuthenticated } = useAuth();
 
@@ -21,7 +22,7 @@ export default function Router() {
               { path: "dashboard", element: <HomePage /> },
               { path: "empdetails", element: <EmployeeDetails />},
               { path: "managerdetails", element: <Manager />},
-              { path: "deptdetails", element: <h1> deptdetails</h1>},
+              { path: "deptdetails", element: <Dipartment />},
               { path: "promote", element: <Promote />},
               { path: "add", element: <AddEmp/> },
             ],

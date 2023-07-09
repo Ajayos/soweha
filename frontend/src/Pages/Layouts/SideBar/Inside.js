@@ -56,6 +56,13 @@ export default function Inside() {
           setSelected={setSelected}
         />
         <Item
+          title="Department Details"
+          to="/deptdetails"
+          icon={<AccountBalanceIcon />}
+          selected={selected}
+          setSelected={setSelected}
+        />
+        <Item
           title="Manager Details"
           to="/managerdetails"
           icon={<ManageAccountsIcon />}
