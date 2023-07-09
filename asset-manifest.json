@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.725c785f.css",
-    "main.js": "/static/js/main.5fa566ef.js",
-    "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
-    "index.html": "/index.html",
-    "main.725c785f.css.map": "/static/css/main.725c785f.css.map",
-    "main.5fa566ef.js.map": "/static/js/main.5fa566ef.js.map",
-    "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
+    "soweha/main.css": "/static/css/main.725c785f.css",
+    "soweha/main.js": "/static/js/main.5fa566ef.js",
+    "soweha/static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
+    "soweha/index.html": "/index.html",
+    "soweha/main.725c785f.css.map": "/static/css/main.725c785f.css.map",
+    "soweha/main.5fa566ef.js.map": "/static/js/main.5fa566ef.js.map",
+    "soweha/787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.725c785f.css",
-    "static/js/main.5fa566ef.js"
+    "soweha/static/css/main.725c785f.css",
+    "soweha/static/js/main.5fa566ef.js"
   ]
 }
