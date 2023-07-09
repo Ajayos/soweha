@@ -1,5 +1,5 @@
 const { Admin } = require("../Models");
-const isEqual = require("../lib/IsEqual");
+const isEqual = require("../lib/isEqual");
 /**
  * Validates and protects an admin's access based on provided data.
  * @param {Object} data - The data object containing admin information.
